@@ -853,6 +853,16 @@ section,
   }
 }
 
+/* --------------------------------------------------------------
+# Hide floating cards on mobile
+-------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .hero .hero-image .image-wrapper .floating-card {
+    display: none !important;
+  }
+}
+
+
 @media (max-width: 992px) {
   .hero .hero-content {
     text-align: center;
