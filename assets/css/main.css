@@ -3736,12 +3736,12 @@ section,
   }
 }
 
-/* Ocultar floating cards en móvil */
 @media (max-width: 991px) {
-  .hero .hero-image .image-wrapper .floating-card {
+  .floating-card {
     display: none !important;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Starter Section Section
